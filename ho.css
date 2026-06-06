@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 135deg, #0f172a, #1e293b, #312e81, #7c3aed);
+    background-size: 400% 400%;
+    animation: bgMove 10s infinite alternate;
+}
+
+@keyframes bgMove {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 40px rgba(124, 58, 237, 0.4);
+}
+
+th {
+    background: linear-gradient(45deg, #ff006e, #8338ec);
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+td {
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: 0.4s;
+}
+
+
+/* Day Colors */
+
+tr:nth-child(2) td {
+    background: rgba(255, 99, 132, 0.35);
+}
+
+tr:nth-child(3) td {
+    background: rgba(54, 162, 235, 0.35);
+}
+
+tr:nth-child(4) td {
+    background: rgba(75, 192, 192, 0.35);
+}
+
+tr:nth-child(5) td {
+    background: rgba(255, 206, 86, 0.35);
+}
+
+tr:nth-child(6) td {
+    background: rgba(153, 102, 255, 0.35);
+}
+
+
+/* BREAK COLUMN */
+
+td[rowspan] {
+    background: linear-gradient( 180deg, #ff006e, #ffbe0b) !important;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px white;
+}
+
+
+/* Hover Effect */
+
+td:hover {
+    transform: scale(1.12);
+    background: white !important;
+    color: #111;
+    box-shadow: 0 0 20px white;
+    z-index: 2;
+}
+
+
+/* Rounded Corners */
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 25px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 25px;
+}
