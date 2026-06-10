@@ -39,6 +39,10 @@ body {
     background-color: red;
     align-items: center;
     justify-content: center;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 .box:hover {

@@ -80,6 +80,9 @@ body {
     opacity: .35;
 }
 
+
+/* RIGHT SIDE */
+
 .content {
     text-align: center;
 }
@@ -101,10 +104,6 @@ body {
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 h1 {
@@ -143,17 +142,9 @@ h1 {
     background: #d7d7e8;
     display: inline-block;
     margin: 0 5px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .active-dot {
     background: #173ca8 !important;
     transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
 }
