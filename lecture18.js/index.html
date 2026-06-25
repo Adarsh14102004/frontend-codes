@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & BOM Task Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>DOM & BOM Task Manager</h1>
+
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter Task">
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div class="bom-box">
+            <h3>BOM Information</h3>
+            <p id="time"></p>
+            <p id="browser"></p>
+            <p id="screen"></p>
+        </div>
+
+    </div>
+
+    <script src="do.js"></script>
+</body>
+
+</html>
