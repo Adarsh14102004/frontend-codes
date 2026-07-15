@@ -12,6 +12,12 @@ async function start() {
         name: "Divya",
         age: 25
     });
+    await student.update({ age: 26 }, {
+        where: {
+            name: "ADS"
+        }
+    });
+
 
     const data = await student.findAll();
     console.log(data);
