@@ -19,7 +19,7 @@ let s1 = new Student("john", 20);
 console.log(s1);
 
 
-let s2 = new Student("ajay", 25);
+let s2 = new Student("vijay", 25);
 console.log(s2);
 s1.study();
 //INHERITANCE
