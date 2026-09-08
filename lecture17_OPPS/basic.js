@@ -25,7 +25,7 @@ s1.study();
 //INHERITANCE
 class Animal {
     eat() {
-        console.log("eating");
+        console.log("Eating");
     }
     sleep() {
         console.log("sleeping");
