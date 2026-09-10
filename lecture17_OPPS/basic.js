@@ -31,7 +31,7 @@ class Animal {
         console.log("Sleeping");
     }
     makeSound() {
-        console.log("make sound of animal");
+        console.log("Make sound of animal");
     }
 }
 
