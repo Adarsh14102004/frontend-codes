@@ -8,7 +8,7 @@ class Animal {
 
 class Dog extends Animal {
     bark() {
-        console.log("Dog is barking");
+        console.log("Dog is Barking");
     }
 }
 
